@@ -66,7 +66,7 @@ html, body{
   
 /* CSS for banner */
 .mycss-banner-section{
-	background-image: url(https://raw.githubusercontent.com/kvu228/kvustore.github.io/main/images/Banner/banner-bg.png);
+	background-image: url('https://raw.githubusercontent.com/kvu228/kvustore.github.io/main/images/Banner/banner-bg.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
