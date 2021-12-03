@@ -1,0 +1,126 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+    .carousel-item{
+        height: 110vw;
+        position: initial;
+    }
+    .carousel-item img{
+        height: 50%;
+        margin-top: 60px;
+        align-items: center;
+    }
+
+    .carousel-caption{
+        margin: initial;
+        top: initial;
+        bottom: -10px;
+        width: initial;
+        transform: initial;
+    }
+
+    .carousel-caption > .display-4{
+        display: none;
+    }
+    
+    .carousel-indicators{
+        display: none;
+    }
+
+    .mycss-keyproduct-section{
+        display: block;
+    }
+    
+    .mycss-new-arrival-section{
+        height: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .mycss-new-arrival-item{
+        width: 100%;
+    }
+    
+    .mycss-new-arrival-img{
+        width: 90%;
+        padding-top: 20px;
+    }
+    .mycss-new-arrival-1st {
+        position: initial;
+        z-index: initial
+    }
+    .mycss-new-arrival-2nd {
+        position: initial;
+        z-index: initial;
+        margin-top: 20px;
+    }
+
+    .mycss-btn{
+        width: 100%;
+    }
+
+    .mycss-shipping-payment-form{
+        width: 100%;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {  
+    .carousel-item{
+        height: 50vw;
+    }
+    .carousel-item img{
+        height: 70%;
+        margin-top: 60px;
+        padding-right: 20px!important;
+    }
+
+    .mycss-keyproduct-section{
+        display: block;
+    }
+    
+    .mycss-new-arrival-section{
+        height: 100%;
+        margin-bottom: 25px;
+    }
+    
+    .mycss-new-arrival-item{
+        width: 100%;
+    }
+    
+    .mycss-new-arrival-img{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .mycss-new-arrival-1st {
+        position: initial;
+        z-index: initial
+    }
+    .mycss-new-arrival-2nd {
+        position: initial;
+        z-index: initial;
+        margin-top: 20px;
+    }
+
+    .mycss-btn{
+        width: 100%;
+    }
+
+    .mycss-shipping-payment-form{
+        width: 100%;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+    .mycss-new-arrival-section {
+        height: 60vh;
+    }
+    .mycss-new-arrival-item {
+        width: 44vw;
+    }
+
+    #collapsibleNavbar{
+        display: block!important;
+    }
+}

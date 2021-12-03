@@ -1,0 +1,240 @@
+/* General CSS */
+*{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 16px;	
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+html, body{
+	overflow: unset;
+}
+
+.text-danger{
+	color: #DB5660!important;
+}
+
+
+.bg-baige{
+	background-color: #EAE7E7;
+}
+
+.mycss-btn{
+	background-color: #DB5660;
+	border: #DB5660;
+}
+
+.mycss-btn:hover{
+	background-color: #DB5660;
+	border: #DB5660;
+	opacity: 0.5;
+}
+
+.mycss-btn:focus{
+	background-color: #e03745;
+	border: #e03745 !important;
+	box-shadow: none;
+}
+
+.mycss-btn:active{
+	background-color: #e03745;
+	border: #e03745;
+	opacity: 1;
+}
+
+.text-decoration-line-through{
+	text-decoration: line-through;
+}
+
+
+/* CSS for header */
+.mycss-main-header{
+	background-color: #0c0116;
+}
+
+.nav-link{
+	font-size: 22px;
+	color: #fff;
+}
+
+.nav-link:hover{
+	color: #DB5660;
+}
+
+  
+/* CSS for banner */
+.mycss-banner-section{
+	background-image: url(/images/Banner/banner-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.carousel-item{
+	width: 100%;
+	height: 40vw;
+
+}
+
+.carousel-item img{
+	height: 90%;
+	object-fit: contain;
+}
+
+.carousel-caption{
+	margin: 0;
+	top: 50%;
+	bottom: auto;
+	width: 40vw;
+	transform: translateY(-50%);
+}
+
+
+
+/* CSS for key product section */
+.mycss-keyproduct-section{
+	display: block;
+}
+
+.mycss-new-arrival-section{
+	position: relative;
+	height: 65vh;
+}
+
+.mycss-new-arrival-item{
+	max-width: 550px;
+	width: 40vw;
+	box-shadow: 5px 5px 20px #0c0116;
+}
+
+.mycss-new-arrival-img{
+	width: 80%;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.mycss-new-btn{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #0c0116;
+	color: #fff;
+	border: none;
+	z-index: 2;
+	padding: 2vh;
+}
+
+.mycss-new-arrival-1st{
+	position: absolute;
+	top: 0;
+	left: 3%;
+	z-index: 1;
+}
+
+.mycss-new-arrival-2nd{
+	position: absolute;
+	top: 20%;
+	z-index: 0;
+}
+
+.mycss-new-arrival-2nd>.card{
+	background-color: rgba(66, 66, 66, 0.1);
+}
+
+
+/* CSS for best sellers section */
+.mycss-best-sellers-section{
+	background-color: #DB5660;
+	color: #fff;
+}
+
+
+/* CSS for contact us */
+#googleMap{
+	width: 100%;
+	height: 450px;	
+	border: none;
+}
+
+/* CSS for footer */
+.mycss-footer .row:first-child{
+	align-items: center;
+}
+
+.mycss-icon{
+	color: #DB5660;
+	font-size: 28px;
+}
+
+.mycss-social-btns i{
+	padding: 0 5px 0 5px;
+}
+
+.mycss-social-btns > .btn:hover{
+	opacity: 0.5;
+	color: #DB5660;
+}
+
+
+/* CSS for back on top btn */
+#back-on-top-btn{
+	position: fixed;
+	bottom: 5px;
+	right: 10vw;
+
+}
+
+#back-on-top-btn > .mycss-btn{
+	background-color: darkgrey;
+	opacity: 0.7;
+
+}
+
+#back-on-top-btn > .mycss-btn:hover{
+	opacity: 0.5;
+}
+
+#back-on-top-btn i{
+	font-size: 20px;
+}
+
+
+/* CSS for breadcrumb */
+/* Style the list */
+ul.breadcrumb {
+	padding: 10px 16px;
+	list-style: none;
+	background-color: #eee;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+	display: inline;
+	font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+	color: #0275d8;
+	text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+	color: #01447e;
+	text-decoration: underline;
+  }
+
+
+  /* CSS for Payment */
+  .mycss-payment-icon{
+	  font-size: 20px;
+  }
