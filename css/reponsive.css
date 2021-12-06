@@ -113,9 +113,7 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px){
-    .mycss-new-arrival-section {
-        height: 60vh;
-    }
+
     .mycss-new-arrival-item {
         width: 44vw;
     }
