@@ -1,5 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .carousel-item{
         height: 110vw;
         position: initial;
